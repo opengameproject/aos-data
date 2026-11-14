@@ -5209,7 +5209,7 @@ Cover**</description>
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to wound rolls for friendly **Stormvermin** units while they are wholly within 13&quot;of this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to wound rolls for friendly **Stormvermin** units while they are wholly within 13&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Doomfang" id="847b-944a-45e8-9523" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
@@ -5521,7 +5521,7 @@ Cover**</description>
           <characteristics>
             <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Any Hero Phase</characteristic>
             <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">8</characteristic>
-            <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a visible enemy unit within 13&quot;of this unit or a visible friendly **^^Skaven Infantry^^** unit within 13&quot; of this unit to be the target, then make a chanting roll of D6.</characteristic>
+            <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a visible enemy unit within 13&quot; of this unit or a visible friendly **^^Skaven Infantry^^** unit within 13&quot; of this unit to be the target, then make a chanting roll of D6.</characteristic>
             <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">If the target is an enemy unit, subtract 1 from the Attacks characteristic of the target&apos;s melee weapons until the start of your next turn.
 If the target is a friendly unit, it can use 2 **^^Fight^^** abilities this turn. After the first is used, however, the target has **^^Strike-last^^** for the rest of the turn.
 If the chanting roll was 12+, you can pick 2 targets instead of 1.</characteristic>
