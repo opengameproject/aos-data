@@ -3149,7 +3149,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), Reaction: You declared a **^^Move^^** ability for a friendly **^^Skyvessel^^** in your movement phase</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a number of **^^Throngankor Alliance Infantry^^** units up to that **^^Skyvessel^^**&apos;s Transport Capacity (see its warscroll) that are wholly within 6&quot; of it, visible to it and not in combat to be the targets. Units that have been transported this turn cannot be targets.
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a number of **^^Throngankor Alliance Infantry^^** units up to that **^^Skyvessel^^**&apos;s Transport Capacity (see its warscroll) that are wholly within 6&quot; of it, visible to it and not in combat to be the targets. Units that have been transported this turn cannot be targets. For this ability, treat that **^^Skyvessel^^**&apos;s Transport Capacity as referring to **^^Throngankor Alliance^^** instead of **^^Kharadron Overlords^^**.
 Remove the targets from the battlefield. After the **^^Skyvessel^^** ends its move, you must set up each target unit on the battlefield, wholly within 6&quot; of that **^^Skyvessel^^** and not in combat. Those units have been transported. A unit cannot use **^^Charge^^** abilities if it was transported in the same turn.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>

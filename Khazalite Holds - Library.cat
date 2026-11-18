@@ -3049,8 +3049,8 @@ If a rhythmic hammering roll equals or exceeds that spell&apos;s casting value, 
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Start of Battle Round</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a visible enemy **^^Hero^^** within 18&quot; of this unit that has not been picked to be the target of this ability this battle to be the target.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Your opponent must decide whether the target will accept the accusation or reject the accusation.
-If they accept the accusation, until the start of your next turn, add 1 to hit rolls for combat attacks made by friendly **^^Khazalite Holds^^** units that target that enemy unit.
-If they reject the accusation, the target cannot use commands until the start of your next turn.</characteristic>
+If they accept the accusation, for the rest of the battle round, add 1 to hit rolls for combat attacks made by friendly **^^Khazalite Holds^^** units that target that enemy unit.
+If they reject the accusation, the target cannot use commands for the rest of the battle round.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>

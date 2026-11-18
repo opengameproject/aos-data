@@ -338,8 +338,8 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Your Movement Phase</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Lance of Ossia^^** unit that has not used a **^^Relentless Discipline^^** ability this phase to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 2&quot; to the target&apos;s Move characteristic for the rest of the phase.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Lance of Ossia^^** unit that has not used a **^^Relentless Discipline^^** ability this phase to use this ability.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. Add 2&quot; to that unit&apos;s Move characteristic for the rest of the phase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Relentless Discipline^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -364,7 +364,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Your Movement Phase</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Lance of Ossia^^** unit that has not used a **^^Relentless Discipline^^** ability this phase to use this ability, then pick a visible enemy unit within 12&quot; of it to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. The target cannot use the &apos;Redeploy&apos; command for the rest of the turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. The target cannot use the &apos;Redeploy&apos; command for the rest of the turn.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Relentless Discipline^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -377,8 +377,8 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Any Charge Phase</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Lance of Ossia^^** unit that has not used a **^^Relentless Discipline^^** ability this phase to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. The target&apos;s melee weapons, including **Companion** weapons, have **Crit (2 Hits)** for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Lance of Ossia^^** unit that has not used a **^^Relentless Discipline^^** ability this phase to use this ability.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. That unit&apos;s melee weapons, including **Companion** weapons, have **Crit (2 Hits)** for the rest of the turn.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Relentless Discipline^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -391,8 +391,8 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Any Combat Phase</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Lance of Ossia^^** unit that charged this turn and has not used a **^^Relentless Discipline^^** ability this phase to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. If the target is reinforced and has more than half of its starting models, spend 2 **relentless discipline** points instead. Add 1 to the Rend characteristic of the target&apos;s weapons, including **Comapnion** weapons, for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Lance of Ossia^^** unit that charged this turn and has not used a **^^Relentless Discipline^^** ability this phase to use this ability.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. Add 1 to the Rend characteristic of that unit&apos;s weapons, including **Companion** weapons, for the rest of the turn.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Relentless Discipline^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
