@@ -1725,6 +1725,115 @@
         <entryLink name="Battle Formations: Seraphon" id="f438-7dd1-2f05-8199" collective="false" flatten="true" hidden="false" import="true" targetId="3c87-b58d-e7fd-e347" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry name="Interpret the Great Plan" id="c4fc-810f-4f40-8cd6" defaultAmount="1" hidden="false" import="true" publicationId="12e3-85f1-9ac8-4b57" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Army Composition" id="d169-4672-ea66-78a3" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="14d7-97ee-7022-8e16" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="min" value="1"/>
+        <constraint id="a9ff-e33f-81c3-7d31" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Stages of the Great Plan" id="1557-2739-5c38-1c72" hidden="false">
+          <constraints>
+            <constraint id="71e9-27eb-8925-cd9b" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="968d-1a8f-f2af-1d45" field="selections" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Destroy the Malefactor" id="8cf7-892e-4aff-c63d" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="f10e-49a5-8af2-8e71" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Destroy the Malefactor" id="37f4-74e5-b8f5-e6da" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">An enemy **^^Hero^^** has been destroyed this battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Restore the Astromatrix" id="82c0-9a03-9195-9893" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="e2bd-d8dc-6a69-867f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Restore the Astromatrix" id="d992-dd2d-9269-19ea" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">There is a friendly **^^Seraphon^^** unit wholly within 12&quot; of each battlefield corner.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Awaken the Ley Lines" id="8863-bb30-2998-3076" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="2b72-5229-adef-1ab3" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Awaken the Ley Lines" id="9ba0-e63a-de99-611d" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">5 or more spells cast or prayers chanted by friendly **^^Seraphon^^** units, in any combination, have been successfully cast or answered this battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Scour the Corruption" id="b576-e682-6ba7-19f5" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="1ce6-6be5-5cb7-7484" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Scour the Corruption" id="ad38-b043-dc43-f315" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">There is a friendly **^^Seraphon^^** unit contesting a terrain feature that you control, and that terrain feature is within enemy territory and not within friendly territory.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Protect the Realmshaper" id="7181-171e-571d-76a3" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="1660-b518-5cb7-11bb" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Protect the Realmshaper" id="c6d3-6a95-8845-2557" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">It is the third battle round or later, there is a friendly **Realmshaper Engine** on the battlefield, and there are no enemy units within 6&quot; of that friendly **Realmshaper Engine**.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
     <selectionEntry name="Manifestation Lore" id="2c80-7f87-373f-cbdb" defaultAmount="1" hidden="true" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Army Composition" id="a843-5d0f-9d46-5680" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
