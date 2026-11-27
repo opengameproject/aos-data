@@ -127,7 +127,7 @@
   <entryLinks>
     <entryLink name="Lord Kroak" id="b137-2ba4-aec4-ee33" hidden="false" import="true" targetId="df01-5aa1-a502-7a0c" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="410"/>
+        <cost name="pts" typeId="points" value="330"/>
       </costs>
       <entryLinks>
         <entryLink name="Battle Wounds + Scars" id="8ac5-786c-8838-4083" hidden="false" import="true" targetId="c566-6b60-fe90-0b24" type="selectionEntryGroup"/>
@@ -171,7 +171,7 @@
     </entryLink>
     <entryLink name="Ripperdactyl Chief" id="618f-175b-1ec1-f18d" hidden="false" import="true" targetId="d8da-70c-5bcc-cf9e" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="253e-94a4-b3c-5552" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -220,7 +220,7 @@
     </entryLink>
     <entryLink name="Saurus Astrolith Bearer" id="e745-4426-5761-4abe" hidden="false" import="true" targetId="4b2-de6c-326c-97b6" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="8263-d366-1d47-43d8" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -330,7 +330,7 @@
     </entryLink>
     <entryLink name="Saurus Oldblood on Carnosaur" id="468c-feee-6e22-e7b3" hidden="false" import="true" targetId="21e1-6ffe-85a6-7d9a" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="210"/>
+        <cost name="pts" typeId="points" value="300"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="15e0-ceda-241f-d495" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -379,7 +379,7 @@
     </entryLink>
     <entryLink name="Saurus Scar-Veteran on Aggradon" id="b998-aa23-d4b1-5347" hidden="false" import="true" targetId="bbf6-9575-ec45-946e" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="3445-a25-baa7-ffda" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -427,7 +427,7 @@
     </entryLink>
     <entryLink name="Saurus Scar-Veteran on Carnosaur" id="ca8-136-e6a1-e7fe" hidden="false" import="true" targetId="6a0c-795a-49f9-67e9" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="190"/>
+        <cost name="pts" typeId="points" value="260"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="8eb8-7ff6-8d73-ca49" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -531,7 +531,7 @@
         <constraint id="d4fe-46d4-fe53-9fc9" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="90"/>
+        <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="447f-43c-8c4d-a026" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -611,7 +611,7 @@
         <constraint id="deba-00f1-f18a-11d7" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="8690-9a17-e34a-4238" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -714,7 +714,7 @@
     </entryLink>
     <entryLink name="Slann Starmaster" id="74bb-6987-d78-6035" hidden="false" import="true" targetId="5165-b82-49a6-36b" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="260"/>
+        <cost name="pts" typeId="points" value="230"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="9bf1-556a-a6d9-25ea" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -764,7 +764,7 @@
     </entryLink>
     <entryLink name="Stegadon Chief" id="bbc9-9865-e2d4-3fa1" hidden="false" import="true" targetId="cd8a-43c6-6598-bd0a" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="160"/>
+        <cost name="pts" typeId="points" value="230"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="ed6f-5ee6-c0b0-3ccb" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -815,7 +815,7 @@
     </entryLink>
     <entryLink name="Terradon Chief" id="5c64-36a1-f31e-e470" hidden="false" import="true" targetId="767f-699-a82d-ca70" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Heroic Traits" id="bd36-ea8a-8f37-2cde" hidden="false" import="true" targetId="e4fd-c74-e5ab-f18d" type="selectionEntryGroup"/>
@@ -869,7 +869,7 @@
     </entryLink>
     <entryLink name="Aggradon Lancers" id="30e7-b18c-2abe-e02" hidden="false" import="true" targetId="e485-3d5d-84ae-6f08" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="200"/>
+        <cost name="pts" typeId="points" value="190"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="d7d0-7a67-e4cb-6e6a" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -900,7 +900,7 @@
         <constraint id="8eff-9d36-5a78-c510" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="230"/>
+        <cost name="pts" typeId="points" value="220"/>
       </costs>
       <entryLinks>
         <entryLink name="Paths" id="db60-619f-155f-ad26" hidden="false" import="true" targetId="1571-5ff6-d10e-404f" type="selectionEntryGroup"/>
@@ -1114,7 +1114,7 @@
         <constraint id="9725-e869-d020-b81d" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="200"/>
       </costs>
       <entryLinks>
         <entryLink name="Paths" id="6b15-0e04-6888-2098" hidden="false" import="true" targetId="1571-5ff6-d10e-404f" type="selectionEntryGroup"/>
@@ -1221,7 +1221,7 @@
         <categoryLink name="Non-Monster Skink" id="7af6-ab42-7ae9-d89d" hidden="false" primary="false" targetId="33b4-c29b-45c8-7bf4"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80"/>
+        <cost name="pts" typeId="points" value="90"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="c48e-5875-0628-242d" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1308,7 +1308,7 @@
     </entryLink>
     <entryLink name="Kroxigor Warspawned" id="b482-27ef-1654-560" hidden="false" import="true" targetId="a2e4-77e6-9246-b9f4" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="200"/>
+        <cost name="pts" typeId="points" value="220"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="941b-3e0b-aed2-85e4" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1340,7 +1340,7 @@
         <categoryLink name="Skink Cavalry" id="6a04-c2a9-5417-0e2a" hidden="false" primary="false" targetId="dd00-d0ba-418f-2053"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="31d3-d713-c715-68c9" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1372,7 +1372,7 @@
         <categoryLink name="Non-Monster Skink" id="5226-065e-724e-0c39" hidden="false" primary="false" targetId="33b4-c29b-45c8-7bf4"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="2f49-cef9-6af8-52a5" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1404,7 +1404,7 @@
         <categoryLink name="Non-Monster Skink" id="f6cd-8d67-e688-7900" hidden="false" primary="false" targetId="33b4-c29b-45c8-7bf4"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="9458-cb25-a80c-5357" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1473,7 +1473,7 @@
     </entryLink>
     <entryLink name="Saurus Guard" id="f524-12ee-36a6-32a9" hidden="false" import="true" targetId="e16-5c12-f381-3006" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="7b2f-caab-8c01-f112" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1532,7 +1532,7 @@
         <categoryLink name="Non-Monster Skink" id="e65a-29b4-7e42-f80f" hidden="false" primary="false" targetId="33b4-c29b-45c8-7bf4"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="70"/>
+        <cost name="pts" typeId="points" value="80"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="e129-e4cb-5044-a075" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1566,7 +1566,7 @@
         <constraint id="d1d8-6f28-d874-2388" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
         <entryLink name="Paths" id="3bce-56a3-4843-47f8" hidden="false" import="true" targetId="1571-5ff6-d10e-404f" type="selectionEntryGroup"/>
@@ -1744,7 +1744,7 @@
         <categoryLink name="Non-Monster Skink" id="e64c-4161-c3fa-baca" hidden="false" primary="false" targetId="33b4-c29b-45c8-7bf4"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="231-5231-e80a-81a" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1816,7 +1816,7 @@
         <constraint id="189b-a0d0-9a63-ab5c" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="70"/>
+        <cost name="pts" typeId="points" value="80"/>
       </costs>
       <entryLinks>
         <entryLink name="Reinforced" id="0958-d1c6-38d4-c64d" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
