@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="❖ Lores" id="0a11-cd61-2a4e-8e04" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="15" library="true" revision="88" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="❖ Lores" id="0a11-cd61-2a4e-8e04" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="15" library="true" revision="89" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Ossiarch Bonereapers - Library" id="d41e-89b0-5cc2-263c" targetId="3521-1b3c-7fd9-838b" type="catalogue"/>
     <catalogueLink name="Nighthaunt - Library" id="5050-b0ea-3bc5-ae62" targetId="4ac4-565f-a06e-893" type="catalogue"/>
@@ -1215,6 +1215,57 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink name="Prayers to the Old Ones" id="d287-c05b-34ca-fb9a" collapsible="true" hidden="true" import="true" targetId="5578-914f-c983-7976" type="selectionEntryGroup">
+              <modifiers>
+                <modifier field="hidden" type="set" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                      <localConditionGroups>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="6f28-c3f6-4b1b-8aff" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8179-697a-9f4c-91d4" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8bc-6d63-e37f-9239" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="5a9b-95b7-c807-341f" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e692-853d-6db8-fdbe" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="3fe-84f4-cec6-a1c1" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                      </localConditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink name="Lore of Gut Magic" id="c500-988c-77ba-58b5" collapsible="true" hidden="true" import="true" targetId="1708-0960-47ad-a552" type="selectionEntryGroup">
               <modifiers>
                 <modifier field="hidden" type="set" value="false">
@@ -1558,45 +1609,6 @@
                       <conditions>
                         <condition childId="704d-d7c8-b9a9-f8b6" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Lore of Primal Jungles" id="8d45-237b-5a97-0484" collapsible="true" hidden="true" import="true" targetId="5c8e-c35f-09a9-078c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier field="hidden" type="set" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                      <localConditionGroups>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="6f28-c3f6-4b1b-8aff" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="8179-697a-9f4c-91d4" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="8bc-6d63-e37f-9239" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="1c0-eb0b-bbd5-4731" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                      </localConditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -5314,6 +5326,57 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink name="Prayers to the Old Ones" id="5a48-4794-6030-290c" collapsible="true" hidden="true" import="true" targetId="5578-914f-c983-7976" type="selectionEntryGroup">
+              <modifiers>
+                <modifier field="hidden" type="set" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                      <localConditionGroups>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="6f28-c3f6-4b1b-8aff" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8179-697a-9f4c-91d4" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8bc-6d63-e37f-9239" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="5a9b-95b7-c807-341f" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e692-853d-6db8-fdbe" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="3fe-84f4-cec6-a1c1" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                      </localConditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink name="Warbeats" id="bcf2-af63-7af2-3b6a" collapsible="true" hidden="true" import="true" targetId="3188-fb52-1d9a-d3ad" type="selectionEntryGroup">
               <modifiers>
                 <modifier field="hidden" type="set" value="false">
@@ -6552,45 +6615,6 @@
                       <conditions>
                         <condition childId="704d-d7c8-b9a9-f8b6" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Lore of Primal Jungles" id="5f04-7951-1450-9596" collapsible="true" hidden="true" import="true" targetId="5c8e-c35f-09a9-078c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier field="hidden" type="set" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                      <localConditionGroups>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="6f28-c3f6-4b1b-8aff" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="8179-697a-9f4c-91d4" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="8bc-6d63-e37f-9239" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="1c0-eb0b-bbd5-4731" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                      </localConditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -8993,6 +9017,57 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink name="Prayers to the Old Ones" id="2a3f-e7ad-3dea-4868" collapsible="true" hidden="true" import="true" targetId="5578-914f-c983-7976" type="selectionEntryGroup">
+              <modifiers>
+                <modifier field="hidden" type="set" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                      <localConditionGroups>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="6f28-c3f6-4b1b-8aff" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8179-697a-9f4c-91d4" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8bc-6d63-e37f-9239" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="5a9b-95b7-c807-341f" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="e692-853d-6db8-fdbe" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
+                          <conditions>
+                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="3fe-84f4-cec6-a1c1" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </localConditionGroup>
+                      </localConditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink name="Warbeats" id="8af5-fb72-5ad8-742b" collapsible="true" hidden="true" import="true" targetId="3188-fb52-1d9a-d3ad" type="selectionEntryGroup">
               <modifiers>
                 <modifier field="hidden" type="set" value="false">
@@ -10312,45 +10387,6 @@
                       <conditions>
                         <condition childId="704d-d7c8-b9a9-f8b6" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                       </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Lore of Primal Jungles" id="0400-10d1-3e64-8c48" collapsible="true" hidden="true" import="true" targetId="5c8e-c35f-09a9-078c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier field="hidden" type="set" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                      <localConditionGroups>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="6f28-c3f6-4b1b-8aff" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="8179-697a-9f4c-91d4" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="8bc-6d63-e37f-9239" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                        <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="roster" type="atLeast" value="1">
-                          <conditions>
-                            <condition childId="9554-d069-a0dd-4f2d" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                            <condition childId="1c0-eb0b-bbd5-4731" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                          </conditions>
-                        </localConditionGroup>
-                      </localConditionGroups>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -12121,6 +12157,19 @@
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink name="Prayers to the Old Ones" id="5613-633c-89a0-7ffa" collapsible="true" hidden="true" import="true" targetId="5578-914f-c983-7976" type="selectionEntryGroup">
+              <modifiers>
+                <modifier field="hidden" type="set" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
             <entryLink name="Warbeats" id="debb-b629-994b-5651" collapsible="true" hidden="true" import="true" targetId="3188-fb52-1d9a-d3ad" type="selectionEntryGroup">
               <modifiers>
                 <modifier field="hidden" type="set" value="false">
@@ -12558,19 +12607,6 @@
                     <conditionGroup type="or">
                       <conditions>
                         <condition childId="8e0e-5e8c-5824-89c9" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink name="Lore of Primal Jungles" id="bb57-dfe2-6063-f873" collapsible="true" hidden="true" import="true" targetId="5c8e-c35f-09a9-078c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier field="hidden" type="set" value="false">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -18091,8 +18127,36 @@ In addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18&quot;
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Lore of Celestial Manipulation" id="0984-90ee-155f-15cb" hidden="false" publicationId="e9d0-a23-6a15-1fcb">
+    <selectionEntryGroup name="Lore of Celestial Manipulation" id="0984-90ee-155f-15cb" hidden="false" publicationId="12e3-85f1-9ac8-4b57">
       <selectionEntries>
+        <selectionEntry name="Empower Celestite" id="6f17-ab11-bb10-e028" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="cad8-a553-b5c8-eae7" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+            <constraint id="ced2-a518-f02a-9fda" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="cad8-a553-b5c8-eae7" type="set" value="1">
+              <conditions>
+                <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Empower Celestite" id="e0c2-6f59-3b19-9e51" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
+              <attributes>
+                <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
+                <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Offensive</attribute>
+              </attributes>
+              <characteristics>
+                <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Your Hero Phase</characteristic>
+                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
+                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a visible friendly **^^Saurus^^** or **^^Kroxigor^^** unit wholly within 12&quot; of them to be the target, then make a casting roll of 2D6.</characteristic>
+                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Add 1 to the Rend characteristic of the target&apos;s melee weapons for the rest of the turn.</characteristic>
+                <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**, **^^Unlimited^^**</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
         <selectionEntry name="Comet&apos;s Call" id="1fa1-1ca7-80b7-c487" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="2173-bbbb-1572-86f0" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
@@ -18113,43 +18177,15 @@ In addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18&quot;
               </attributes>
               <characteristics>
                 <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Your Hero Phase</characteristic>
-                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
-                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a visible enemy unit within 18&quot; of them to be the target, then make a casting roll of 2D6.</characteristic>
-                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.</characteristic>
+                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
+                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to use this spell, pick a point on the battlefield within 18&quot; of them, then pick all enemy units within 3&quot; of that point to be a target. Then, make a casting roll of 2D6.</characteristic>
+                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Inflict D3 mortal damage on each target.</characteristic>
                 <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Mystical Unforging" id="6f17-ab11-bb10-e028" hidden="false" import="true" type="upgrade">
-          <constraints>
-            <constraint id="cad8-a553-b5c8-eae7" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="ced2-a518-f02a-9fda" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="cad8-a553-b5c8-eae7" type="set" value="1">
-              <conditions>
-                <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <profiles>
-            <profile name="Mystical Unforging" id="e0c2-6f59-3b19-9e51" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
-              <attributes>
-                <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
-                <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Defensive</attribute>
-              </attributes>
-              <characteristics>
-                <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Your Hero Phase</characteristic>
-                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
-                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a visible enemy unit within 12&quot; of them to be the target, then make a casting roll of 2D6.</characteristic>
-                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Subtract 1 from the Rend characteristic of the target&apos;s weapons until the start of your next turn.</characteristic>
-                <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**, **^^Unlimited^^**</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry name="Speed of Huanchi" id="c9a3-1ae0-d75f-af62" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Celestial Reinforcements" id="c9a3-1ae0-d75f-af62" hidden="false" import="true" type="upgrade">
           <constraints>
             <constraint id="a9b4-cdb7-51ea-39b9" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
             <constraint id="bc9a-7f53-f0d8-be4d" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
@@ -18162,16 +18198,16 @@ In addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18&quot;
             </modifier>
           </modifiers>
           <profiles>
-            <profile name="Speed of Huanchi" id="6086-ce9b-38be-28b2" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
+            <profile name="Celestial Reinforcements" id="6086-ce9b-38be-28b2" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
               <attributes>
                 <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
-                <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Movement</attribute>
+                <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Rallying</attribute>
               </attributes>
               <characteristics>
                 <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Your Hero Phase</characteristic>
-                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
-                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a visible friendly **^^Seraphon^^** unit wholly within 12&quot; of them to be the target, then make a casting roll of 2D6.</characteristic>
-                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Until the start of your next turn, the target can use a **^^Run^^** ability and still use **^^Shoot^^** and/or **^^Charge^^** abilities later in the turn.</characteristic>
+                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
+                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a friendly non-**^^Hero^^** non-**^^Monster^^** **^^Seraphon^^** unit that has been destroyed to be the target, then make a casting roll of 2D6. Subtract 1 from the casting roll if it is the enemy turn.</characteristic>
+                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12&quot; of the caster and more than 9&quot; from all enemy units.</characteristic>
                 <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
               </characteristics>
             </profile>
@@ -18179,88 +18215,91 @@ In addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18&quot;
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Lore of Primal Jungles" id="5c8e-c35f-09a9-078c" hidden="false" publicationId="e9d0-a23-6a15-1fcb">
+    <selectionEntryGroup name="Prayers to the Old Ones" id="5578-914f-c983-7976" hidden="false" publicationId="12e3-85f1-9ac8-4b57">
       <selectionEntries>
-        <selectionEntry name="Empowered Celestite" id="e381-916d-cba4-2cc3" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Bite of Chotec" id="02db-d4e9-6695-ecc6" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="ab09-a2fb-5e58-5b28" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="61b4-f76b-2c58-a7c2" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="39d0-786c-5a8a-b016" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+            <constraint id="1cf5-06c8-b688-ca46" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <modifiers>
-            <modifier field="ab09-a2fb-5e58-5b28" type="set" value="1">
+            <modifier field="39d0-786c-5a8a-b016" type="set" value="1">
               <conditions>
                 <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
           <profiles>
-            <profile name="Empowered Celestite" id="edf1-a3bd-9224-ac66" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
+            <profile name="Bite of Chotec" id="8fd4-abe8-9d27-7a89" hidden="false" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)">
               <attributes>
-                <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
-                <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Offensive</attribute>
+                <attribute name="Color" typeId="7564-4bf0-b34a-b143">Yellow</attribute>
+                <attribute name="Type" typeId="c63c-196d-34a7-cec3">Offensive</attribute>
+                <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
               </attributes>
               <characteristics>
-                <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Your Hero Phase</characteristic>
-                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
-                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a visible friendly **^^Saurus^^** unit wholly within 12&quot; of them to be the target, then make a casting roll of 2D6.</characteristic>
-                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Add 1 to the Rend characteristic of the target&apos;s melee weapons for the rest of the turn.</characteristic>
-                <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
+                <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
+                <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">4</characteristic>
+                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Seraphon Priest^^** to chant this prayer, pick a visible friendly **^^Seraphon^^** unit wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
+                <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">If the chanting roll was 8+, you can pick another eligible unit to be a second target. Until the start of your next hero phase, the targets&apos; melee weapons have **Crit (2 Hits)**.</characteristic>
+                <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**, **^^Unlimited^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Light of Chotec" id="c2fd-e189-432e-4991" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Speed of Huanchi" id="603e-9283-7020-3d8c" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="e9bb-535e-4ffe-6a9e" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="64e5-531d-6035-a79c" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="d8f5-ed3b-3f4e-f0f6" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+            <constraint id="b34b-9d4e-a173-b28f" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <modifiers>
-            <modifier field="e9bb-535e-4ffe-6a9e" type="set" value="1">
+            <modifier field="d8f5-ed3b-3f4e-f0f6" type="set" value="1">
               <conditions>
                 <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
           <profiles>
-            <profile name="Light of Chotec" id="b5b-15c9-fb89-ca1a" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
+            <profile name="Speed of Huanchi" id="4d0b-0923-3fed-981d" hidden="false" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)">
               <attributes>
-                <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
-                <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Defensive</attribute>
+                <attribute name="Color" typeId="7564-4bf0-b34a-b143">Yellow</attribute>
+                <attribute name="Type" typeId="c63c-196d-34a7-cec3">Movement</attribute>
+                <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
               </attributes>
               <characteristics>
-                <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Your Hero Phase</characteristic>
-                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
-                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a visible friendly **^^Seraphon^^** unit wholly within 12&quot; of them to be the target, then make a casting roll of 2D6.</characteristic>
-                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Roll a number of dice equal to the number of damage points the target has. For each 4+, **Heal (1)** the target.</characteristic>
-                <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**, **^^Unlimited^^**</characteristic>
+                <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
+                <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">4</characteristic>
+                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Seraphon Priest^^** to chant this prayer, pick a visible friendly **^^Skink^^** unit wholly within 12&quot; of them that was not set up this turn and is not in combat to be the target, then make a chanting roll of D6.</characteristic>
+                <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">The target can move 5&quot;. If the chanting roll was 7+, the target can move 8&quot; instead. It cannot move into combat during any part of that move. In addition, that unit counts as having used a **^^Run^^** ability this turn.</characteristic>
+                <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="The Earth Trembles" id="e4b1-80ef-1795-f6f2" hidden="false" import="true" type="upgrade">
+        <selectionEntry name="Teachings of Tepok" id="4ede-11cb-5a5e-129d" hidden="false" import="true" type="upgrade">
           <constraints>
-            <constraint id="22fa-7a8b-1041-5742" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
-            <constraint id="006a-26f8-8bbe-6f60" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="4521-346d-1ab5-6075" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+            <constraint id="34fa-9ed0-62d2-e655" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <modifiers>
-            <modifier field="22fa-7a8b-1041-5742" type="set" value="1">
+            <modifier field="4521-346d-1ab5-6075" type="set" value="1">
               <conditions>
                 <condition childId="707c-1c04-9af6-2307" field="selections" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
           <profiles>
-            <profile name="The Earth Trembles" id="6af9-2a3c-fa24-1108" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
+            <profile name="Teachings of Tepok" id="f90e-d966-2a14-1a2a" hidden="false" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)">
               <attributes>
-                <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
-                <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Offensive</attribute>
+                <attribute name="Color" typeId="7564-4bf0-b34a-b143">Yellow</attribute>
+                <attribute name="Type" typeId="c63c-196d-34a7-cec3">Defensive</attribute>
+                <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
               </attributes>
               <characteristics>
-                <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Your Hero Phase</characteristic>
-                <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">8</characteristic>
-                <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a friendly **^^Seraphon Wizard^^** to cast this spell, pick a point on the battlefield within 18&quot; of them to be the target point, then make a casting roll of 2D6.</characteristic>
-                <characteristic name="Effect" typeId="1cb9-a-1345-907f">Draw a straight line between the target point and the closest part on the caster&apos;s base. Roll a D3 for each unit (friendly and enemy) that has models passed across by this line. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.</characteristic>
-                <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
+                <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Your Hero Phase</characteristic>
+                <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">3</characteristic>
+                <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Seraphon Priest^^** to chant this prayer, pick a visible friendly **^^Seraphon^^** unit wholly within 12&quot; of them to be the target, then make a chanting roll of D6.</characteristic>
+                <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Until the start of the next turn, while the target is contesting an objective you control, ignore the effect of **Charge (+1 Damage)** for attacks that target that friendly unit. If the chanting roll was 7+, other than **Companion**, ignore the effect of weapon abilities for attacks that target that friendly unit instead.</characteristic>
+                <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**</characteristic>
               </characteristics>
             </profile>
           </profiles>

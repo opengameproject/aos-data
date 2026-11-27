@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem name="AoS 4.0" id="e51d-b1a3-75fc-dc3g" battleScribeVersion="2.03" revision="106" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem name="AoS 4.0" id="e51d-b1a3-75fc-dc3g" battleScribeVersion="2.03" revision="107" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="DEATH" id="d484-a2d7-cf4f-c4a0" hidden="false"/>
     <categoryEntry name="HERO" id="6e72-1656-d554-528a" hidden="false">
@@ -1521,6 +1521,8 @@
         <forceEntryLink name="Mist-Clad Revellers" id="3b36-6fc7-5028-ded7" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
         <forceEntryLink name="Fjori&apos;s Vengeance" id="3ee2-abad-c487-5493" hidden="false" targetId="1c87-ae3a-bc75-0668" type="forceEntry"/>
         <forceEntryLink name="Thengin&apos;s Grudgesettlers" id="ea6f-238f-5ad9-206d" hidden="false" targetId="e61f-48b6-8f84-2fd8" type="forceEntry"/>
+        <forceEntryLink name="The Horns of Quetzl" id="f228-c950-eb7a-e799" hidden="false" targetId="93a8-4df6-5e51-8b6e" type="forceEntry"/>
+        <forceEntryLink name="The Beacon of Zhanuax" id="06ed-404a-e447-16fe" hidden="false" targetId="bd7a-cbb1-c14e-78a4" type="forceEntry"/>
       </forceEntryLinks>
       <modifiers>
         <modifier field="error" type="add" value="Your list can have a maximum of 5 regiments, including up to 1 Regiment of Renown.">
@@ -2875,6 +2877,8 @@
         <forceEntryLink name="Mist-Clad Revellers" id="4c15-97f7-ad18-219e" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
         <forceEntryLink name="Fjori&apos;s Vengeance" id="b7db-7dfc-bd76-e14e" hidden="false" targetId="1c87-ae3a-bc75-0668" type="forceEntry"/>
         <forceEntryLink name="Thengin&apos;s Grudgesettlers" id="a86a-2cc6-6002-be97" hidden="false" targetId="e61f-48b6-8f84-2fd8" type="forceEntry"/>
+        <forceEntryLink name="The Horns of Quetzl" id="725e-d299-5471-45c7" hidden="false" targetId="93a8-4df6-5e51-8b6e" type="forceEntry"/>
+        <forceEntryLink name="The Beacon of Zhanuax" id="26d3-ea9a-6245-f9d3" hidden="false" targetId="bd7a-cbb1-c14e-78a4" type="forceEntry"/>
       </forceEntryLinks>
       <modifiers>
         <modifier field="error" type="add" value="Your list can have a maximum of 5 regiments, including up to 1 Regiment of Renown.">
@@ -7338,6 +7342,8 @@
         <forceEntryLink name="Mist-Clad Revellers" id="3b5b-acde-4478-2ab7" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
         <forceEntryLink name="Fjori&apos;s Vengeance" id="a09a-0644-78fe-e96f" hidden="false" targetId="1c87-ae3a-bc75-0668" type="forceEntry"/>
         <forceEntryLink name="Thengin&apos;s Grudgesettlers" id="d2aa-553e-0b8c-e8ef" hidden="false" targetId="e61f-48b6-8f84-2fd8" type="forceEntry"/>
+        <forceEntryLink name="The Horns of Quetzl" id="0622-94b8-608e-ddda" hidden="false" targetId="93a8-4df6-5e51-8b6e" type="forceEntry"/>
+        <forceEntryLink name="The Beacon of Zhanuax" id="1cb0-952e-c546-a32d" hidden="false" targetId="bd7a-cbb1-c14e-78a4" type="forceEntry"/>
       </forceEntryLinks>
       <modifiers>
         <modifier field="error" type="add" value="To add units to your roster, you need to add a regiment. These can be added under the Forces selector - select your top-level force for your army and then click the + on mobile or check the sidebar panel on desktop.">
@@ -13969,6 +13975,8 @@
         <forceEntryLink name="Mist-Clad Revellers" id="7215-a1a6-0f67-730d" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
         <forceEntryLink name="Fjori&apos;s Vengeance" id="6ade-2845-e471-0b16" hidden="false" targetId="1c87-ae3a-bc75-0668" type="forceEntry"/>
         <forceEntryLink name="Thengin&apos;s Grudgesettlers" id="d6e2-3c0d-00f2-4892" hidden="false" targetId="e61f-48b6-8f84-2fd8" type="forceEntry"/>
+        <forceEntryLink name="The Horns of Quetzl" id="9553-b318-1cc8-2eee" hidden="false" targetId="93a8-4df6-5e51-8b6e" type="forceEntry"/>
+        <forceEntryLink name="The Beacon of Zhanuax" id="90e4-cb06-b4b7-3c7c" hidden="false" targetId="bd7a-cbb1-c14e-78a4" type="forceEntry"/>
         <forceEntryLink name="The Accursed Reflection" id="0778-60ec-2909-f96f" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
       </forceEntryLinks>
       <modifiers>
@@ -14127,6 +14135,101 @@
                     <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="1bd9-ad7d-68ee-3b53" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition childId="1ed8-2e23-1563-c119" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </forceEntry>
+    <forceEntry name="The Horns of Quetzl" id="93a8-4df6-5e51-8b6e" hidden="true">
+      <categoryLinks>
+        <categoryLink name="HERO" id="1959-8b6f-ae3f-915b" hidden="false" targetId="6e72-1656-d554-528a"/>
+        <categoryLink name="INFANTRY" id="7b43-e19c-11dc-e7de" hidden="false" targetId="75d6-6995-dfcc-3898"/>
+        <categoryLink name="MONSTER" id="a5b3-57a8-d46c-b72a" hidden="false" targetId="6d54-625c-d063-13e2"/>
+        <categoryLink name="WAR MACHINE" id="8904-71dd-44bd-0d10" hidden="false" targetId="f7bc-b618-4b5d-2bae"/>
+        <categoryLink name="CAVALRY" id="a757-5260-2ba1-736b" hidden="false" targetId="926c-df8c-6841-d49e"/>
+        <categoryLink name="BEAST" id="c3e6-1a5d-43e9-d481" hidden="false" targetId="b224-8c8e-ca93-9860"/>
+        <categoryLink name="Reference" id="e28f-4de3-bb09-31b4" hidden="false" targetId="3360-1158-e879-9606"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="b4e2-fe32-0c71-34a6" field="selections" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="380"/>
+        <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+        <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+        <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="9baf-c109-f621-e60" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="832c-fd6-a535-ffae" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="8aef-b85d-b63a-ef05" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="6353-cb84-ac7f-9a15" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="de5f-588b-ea57-d6b5" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="1bd9-ad7d-68ee-3b53" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="bb7e-b0da-5c2-a980" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition childId="1ed8-2e23-1563-c119" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </forceEntry>
+    <forceEntry name="The Beacon of Zhanuax" id="bd7a-cbb1-c14e-78a4" hidden="true">
+      <categoryLinks>
+        <categoryLink name="HERO" id="6b92-05f0-84da-6bac" hidden="false" targetId="6e72-1656-d554-528a"/>
+        <categoryLink name="INFANTRY" id="9cb3-6c06-acd0-15ef" hidden="false" targetId="75d6-6995-dfcc-3898"/>
+        <categoryLink name="MONSTER" id="08ac-f895-520f-598d" hidden="false" targetId="6d54-625c-d063-13e2"/>
+        <categoryLink name="WAR MACHINE" id="7be4-5db3-9e1b-33e6" hidden="false" targetId="f7bc-b618-4b5d-2bae"/>
+        <categoryLink name="CAVALRY" id="9b7c-15b9-2fd4-7a4f" hidden="false" targetId="926c-df8c-6841-d49e"/>
+        <categoryLink name="BEAST" id="d64e-e90a-afa7-ebf9" hidden="false" targetId="b224-8c8e-ca93-9860"/>
+        <categoryLink name="Reference" id="f871-7da0-c1c1-a26d" hidden="false" targetId="3360-1158-e879-9606"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="30b0-103a-b4be-3dfa" field="selections" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="260"/>
+        <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+        <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+        <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="e7bb-96f9-c2d4-445a" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="1bd9-ad7d-68ee-3b53" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="bb7e-b0da-5c2-a980" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -14344,6 +14447,7 @@
     <publication name="White Dwarf Issue 525" id="dadd-06f0-3f38-c6f3" hidden="false"/>
     <publication name="Scourge of Aqshy" id="9e18-bb03-7b60-d4ff" hidden="false"/>
     <publication name="Battletome: Khazalite Holds" id="f98d-040f-7b3e-eaf1" hidden="false"/>
+    <publication name="Battletome: Seraphon" id="12e3-85f1-9ac8-4b57" hidden="false"/>
   </publications>
   <selectionEntries>
     <selectionEntry name="READ ME" id="eb00-fe05-1949-bed7" defaultAmount="1" hidden="false" import="false" type="upgrade">
