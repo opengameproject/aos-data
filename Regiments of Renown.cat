@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="۞ Regiments of Renown" id="1ed8-2e23-1563-c119" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="68" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="۞ Regiments of Renown" id="1ed8-2e23-1563-c119" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="69" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Soulblight Gravelords - Library" id="4d19-406d-3ac6-a882" targetId="dff3-13f8-82b5-3347" type="catalogue"/>
     <catalogueLink name="Ossiarch Bonereapers - Library" id="7ae6-dc04-99b0-ab87" targetId="3521-1b3c-7fd9-838b" type="catalogue"/>
@@ -4789,6 +4789,8 @@
     </entryLink>
     <entryLink name="Regiment of Renown: Fjori&apos;s Vengeance" id="6d25-e126-2d4d-d941" hidden="false" import="true" targetId="e6d3-7beb-6cef-d5c3" type="selectionEntry"/>
     <entryLink name="Regiment of Renown: Thengin&apos;s Grudgesettlers" id="8f53-4755-fdf8-b4c8" hidden="false" import="true" targetId="852a-b559-1a3f-28be" type="selectionEntry"/>
+    <entryLink name="Regiment of Renown: The Horns of Quetzl" id="c33d-ddd4-bac3-1a9f" hidden="false" import="true" targetId="7b2e-3c33-14b3-5ec5" type="selectionEntry"/>
+    <entryLink name="Regiment of Renown: The Beacon of Zhanuax" id="e2d3-de2e-e85e-53f6" hidden="false" import="true" targetId="90c3-de1c-6fcb-d991" type="selectionEntry"/>
     <entryLink name="Grimhold Exile" id="6bea-dcb0-0f5d-7af1" hidden="true" import="true" targetId="2c38-d48c-10c0-35e6" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Restrict General" id="4186-8ecf-e0bc-0909" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
@@ -4919,6 +4921,84 @@
           <modifiers>
             <modifier field="df72-743a-ad03-bbe9" type="set" value="1"/>
             <modifier field="a3e0-fb80-9d64-f602" type="set" value="1"/>
+            <modifier field="hidden" type="set" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink name="Stegadon Chief" id="9230-c91b-bce1-0d26" hidden="true" import="true" targetId="cd8a-43c6-6598-bd0a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Restrict General" id="2730-c3f6-8b32-f5bd" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="a259-86bc-498e-f61a" automatic="true" field="selections" scope="force" shared="true" type="min" value="0"/>
+        <constraint id="d505-9253-dc28-ff4c" automatic="true" field="selections" scope="force" shared="true" type="max" value="0"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="93a8-4df6-5e51-8b6e" field="selections" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier field="a259-86bc-498e-f61a" type="set" value="1"/>
+            <modifier field="d505-9253-dc28-ff4c" type="set" value="1"/>
+            <modifier field="hidden" type="set" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink name="Stegadon" id="74c7-98b0-7b7b-2764" hidden="true" import="true" targetId="967b-8047-ea59-d6ea" type="selectionEntry">
+      <constraints>
+        <constraint id="0565-290a-4468-c7f8" automatic="true" field="selections" scope="force" shared="true" type="min" value="0"/>
+        <constraint id="dd92-44a2-4b1b-9cd1" automatic="true" field="selections" scope="force" shared="true" type="max" value="0"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="93a8-4df6-5e51-8b6e" field="selections" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier field="0565-290a-4468-c7f8" type="set" value="1"/>
+            <modifier field="dd92-44a2-4b1b-9cd1" type="set" value="1"/>
+            <modifier field="hidden" type="set" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink name="Saurus Astrolith Bearer" id="250e-0797-a011-1c4c" hidden="true" import="true" targetId="4b2-de6c-326c-97b6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Restrict General" id="9d6b-9e4c-0588-0ddb" hidden="false" primary="false" targetId="abcb-73d0-2b6c-4f17"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3f9a-7ec0-6b3a-5e87" automatic="true" field="selections" scope="force" shared="true" type="min" value="0"/>
+        <constraint id="151f-2971-6662-7816" automatic="true" field="selections" scope="force" shared="true" type="max" value="0"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="bd7a-cbb1-c14e-78a4" field="selections" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier field="3f9a-7ec0-6b3a-5e87" type="set" value="1"/>
+            <modifier field="151f-2971-6662-7816" type="set" value="1"/>
+            <modifier field="hidden" type="set" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink name="Saurus Warriors" id="87e4-380f-609c-4037" hidden="true" import="true" targetId="f5a9-66a7-bb69-533f" type="selectionEntry">
+      <constraints>
+        <constraint id="b146-d290-00f0-d34b" automatic="true" field="selections" scope="force" shared="true" type="min" value="0"/>
+        <constraint id="d920-5d0d-f098-0950" automatic="true" field="selections" scope="force" shared="true" type="max" value="0"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="bd7a-cbb1-c14e-78a4" field="selections" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier field="b146-d290-00f0-d34b" type="set" value="1"/>
+            <modifier field="d920-5d0d-f098-0950" type="set" value="1"/>
             <modifier field="hidden" type="set" value="false"/>
           </modifiers>
         </modifierGroup>
@@ -9614,6 +9694,95 @@ If you picked a **Dreadful Visage** or **Wheels of Excruciation**, set it up who
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each unit in this Regiment of Renown starts the battle with 1 grudge mark. If a unit in this Regiment of Renown destroys an enemy unit, you must remove the grudge mark from that friendly unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Regiment of Renown: The Horns of Quetzl" id="7b2e-3c33-14b3-5ec5" defaultAmount="0" hidden="true" import="true" publicationId="12e3-85f1-9ac8-4b57" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Reference" id="88cb-9e4b-51b4-77b7" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3cb5-d1cc-4d2a-b689" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="93a8-4df6-5e51-8b6e" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Unstoppable Stampede" id="a3e0-50cd-85a1-8877" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), End of Any Turn</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a unit in this Regiment of Renown that charged this turn and did not use the &apos;Power Through&apos; ability this turn to be the target.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">The target can move D6&quot; and must end that move in combat. It cannot use commands for the rest of the turn.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Roving Titans" id="9e67-28c6-183f-177a" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle, Deployment Phase</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Remove each unit in this Regiment of Renown from the battlefield and set them up again wholly within 9&quot; of a battlefield edge, more than 9&quot; from all enemy units and within 3&quot; of each other. They cannot use **^^Move^^** abilities in the movement phase of the first turn of the first battle round.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry name="Regiment of Renown: The Beacon of Zhanuax" id="90c3-de1c-6fcb-d991" defaultAmount="0" hidden="true" import="true" publicationId="12e3-85f1-9ac8-4b57" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Reference" id="76ed-db2c-48bd-22ac" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="339e-cc60-6a0d-e273" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="bd7a-cbb1-c14e-78a4" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Unstable Energies" id="4dee-1381-fb82-55f5" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), Any Hero Phase</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. Add the number of times you have used this ability this battle to the roll.
+• On a 1-5, for the rest of the turn, friendly units have **^^Ward (6+)^^** while they are wholly within 12&quot; of the **Saurus Astrolith Bearer** in this Regiment of Renown.
+• On a 6+, inflict D3 mortal damage on each unit (friendly or enemy) within 12&quot; of the **Saurus Astrolith Bearer** in this Regiment of Renown.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Starborne Attunement" id="5db9-f94a-eb5e-3369" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While the units in this Regiment of Renown are wholly within 12&quot; of each other, you count as having witnessed 2 **asterisms**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
